@@ -1,0 +1,122 @@
+body{
+	background-color:lightgray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial;
+}
+header{
+	margin-top: 25px;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+        
+
+}
+ul li{
+	float: left;
+	width: 200px;
+	height: 40px;
+	background-color:lightgreen;
+	opacity: .8; 
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+	
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	transition: 0.6s ease;
+}
+ul li a:hover {
+	background-color: black;
+        transition-delay:0.5s;
+        
+}
+ul li.active a{
+	background-color:chocolate;
+	color: #000;
+        z-index:-1; 
+        position:relative;
+}
+ul li ul li{
+	display: none;
+}
+ul li:hover ul li{
+	display: block;
+}
+.main{
+	margin: auto;
+}
+.search{
+  .search input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+}
+
+.tb{
+    table-layout: fixed;
+    float: center;
+    margin-top: 12px;
+}
+
+td{
+    word-wrap:break-word;
+    white-space: normal;
+}
+
+.form-container{
+    margin-botton: 100px;
+}
+.list{
+    list-style-type: none;
+	text-align: center;
+        margin-bottom: 10px;
+}
+
+.list li{
+	width: 250px;
+	margin-bottom: 10px;
+}
+
+.list li input{
+	width: 250px;
+	text-align: center;
+	padding: 8px 0px;
+	border: none;
+	background-color:chocolate;
+	border-radius: 5px;
+}
+
+.rez{
+    margin-top: 30px;
+    font-color: white;
+}
+
+.h2{
+    align: center;
+    color: white;
+    float: center;
+    margin-top: 12px;
+}
+
+form {
+  overflow: hidden;
+}
+input {
+  float: right;
+  clear: both;
+}
+label {
+  float: right;
+  clear: both;
+}
+
